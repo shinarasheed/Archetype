@@ -1,0 +1,1225 @@
+@font-face {
+    font-family: 'segoeuil';
+    src: url(../fonts/segoeuil.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Gudea-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../fonts/Belleza-Regular.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(../fonts/AvenirLTStd-Book.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: segoeuil;
+    /* background:red; */
+}
+
+.font1 {
+    font-family: font1;
+}
+
+.font2 {
+    font-family: font2;
+}
+
+.font3 {
+    font-family: font3;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerImage {
+    margin: auto;
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.headerSocial {
+    position: absolute !important;
+    top: 31px;
+    left: 1185px;
+}
+
+.indexBanner {
+    top: 243px;
+    color: white;
+    width: 71%;
+    left: 204px;
+}
+
+.indexBannerWriteUp {
+    margin-top: 27px;
+}
+
+.indexBannerWriteUp h1 {
+    font-size: 44px;
+    font-family: font1;
+}
+
+.indexBannerWriteUp p {
+    font-size: 19px;
+}
+
+#indexSecondSection {
+    background: #1f3994;
+    color: white;
+    padding: 50px 204px;
+}
+
+#indexSecondSection h3 {
+    font-weight: bold;
+}
+
+#indexThirdSection hr {
+    width: 22%;
+    background: white;
+}
+
+#indexThirdSection h2 {
+    margin-top: -12px;
+}
+
+#indexThirdSection p {
+    font-size: 20px;
+}
+
+#indexThirdSection .row {
+    padding: 54px 148px;
+    z-index: 2;
+}
+
+#indexThirdSection {
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+#indexThirdSection .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1f3994;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+#about3section h2 {
+    padding-top: 51px;
+    font-family: font3;
+    text-align: center;
+    font-weight: bold;
+}
+
+#about3section {
+    background: #f5f9fc;
+}
+
+#about3section > .row {
+    padding: 83px 223px;
+}
+
+#about3section li {
+    font-size: 18px;
+    line-height: 50px;
+}
+
+#about3section li img {
+    margin-right: 12px;
+    float: left;
+}
+
+#about3section .row>.col-md-4 p {
+    font-size: 19px;
+}
+
+#about3section .row>.col-md-4 {
+    border-right: dotted 2px red;
+}
+
+#indexFourthSection {
+    padding: 90px 84px;
+    background: #f7f7f7;
+}
+
+#indexFourthSection .row {
+    z-index: 1;
+}
+
+
+/* #indexFourthSection .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+} */
+
+#indexFourthSection .col-md-4 div {
+    border: dotted 1px grey;
+    padding: 9px;
+    background: white;
+    color: black;
+}
+
+#indexFourthSection .col-md-4 h2 {
+    font-family: font2;
+    font-size: 25px;
+    text-align: center;
+    padding: 9px 1px 1px 1px;
+    margin-top: 1px;
+}
+
+#indexFourthSection .push1 {
+    margin-bottom: 42px;
+}
+
+#indexFourthSection .push2 {
+    margin-bottom: 68px;
+}
+
+#indexFourthSection .col-md-4 p {
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+#indexFifthSection p {
+    font-size: 20px;
+}
+
+#indexFifthSection h2 {
+    color: #FFDEAD;
+}
+
+#indexFifthSection .row {
+    padding: 129px 148px;
+    z-index: 2;
+}
+
+#indexFifthSection {
+    background-image: url('../images/1350x430.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+#indexFifthSection .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1f3994;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+#indexClients>div {
+    padding: 47px 70px 47px 113px;
+}
+
+#indexSixthSection h2 {
+    margin-top: 53px;
+}
+
+#indexSixthSection p {
+    font-size: 20px;
+    margin-top: 21px;
+}
+
+#indexSixthSection .row {
+    padding: 28px 62px;
+    z-index: 2;
+}
+
+#indexSixthSection {
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+#indexSixthSection .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #b34e28;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+#indexSixthSection img {
+    margin-top: 23px;
+}
+
+#footer {
+    background: #000d20;
+    color: white;
+}
+
+#footer .firstRow {
+    padding: 59px 66px;
+}
+
+#footer .secondRow {
+    border-top: solid 1px;
+    padding: 12px;
+    text-align: center;
+}
+#footer .moveUp {
+    margin-top: 71px;
+}
+
+#footer .partOne .button {
+    border: solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 5px 0px 5px;
+    width: 176px;
+    font-size: 17px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+#footer .partOne p {
+    margin-top: 15px;
+}
+
+#footer .partOne .button p {
+    margin-top: 0px;
+}
+
+#footer .partTwo li {
+    line-height: 24px;
+}
+
+#footer .partThree a {
+    margin-right: 8px;
+}
+
+#footer hr {
+    background: white;
+    width: 13%;
+    border: solid 1px white;
+    margin-left: 2px;
+    margin-top: -1px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer h4 {
+    font-family: font2;
+}
+
+#aboutFirstSection .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1f3994;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.aboutBannerWriteUp {
+    top: 138px;
+    color: white;
+    width: 71%;
+    left: 204px;
+}
+
+.aboutBannerWriteUp h3 {
+    font-family: font1;
+    font-size: 2.0rem;
+}
+
+.aboutBannerWriteUp p {
+    padding: 12px 437px 19px 12px;
+    font-size: 18px;
+    border-left: solid 1px;
+    margin-top: 24px;
+}
+
+#aboutSecondSection>.row {
+    background: #f5f9fc;
+}
+
+#aboutSecondSection>.row {
+    padding: 54px 148px;
+}
+
+#aboutSecondSection .partOne p {
+    background: #0b8fec;
+    width: 94.4%;
+    padding: 23px 44px;
+    text-align: center;
+    top: 317px;
+    opacity: 0.9;
+}
+
+#aboutSecondSection hr {
+    background: black;
+    width: 7%;
+    border: solid 1px black;
+    margin-left: 2px;
+    margin-top: -1px;
+}
+
+#aboutSecondSection .partTwo>p {
+    font-size: 22px;
+    margin-top: 17px;
+}
+
+#aboutSecondSection .partTwo .leftBorder {
+    border-left: solid 1px #b34e28;
+    margin-top: 24px;
+    padding-left: 11px;
+}
+
+#aboutThirdSection {
+    background: #304059;
+    color: white;
+}
+
+#aboutThirdSection>.row {
+    padding: 54px 148px;
+}
+
+#aboutThirdSection hr {
+    background: white;
+    width: 17%;
+    border: solid 1px white;
+    margin-left: 1px;
+}
+
+#aboutThirdSection .partOne {
+    padding: 90px 2px;
+}
+
+#aboutThirdSection .partOne p {
+    font-size: 20px;
+}
+
+#aboutThirdSection h5 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#aboutThirdSection .row .col-md-6 .myContainer {
+    background: white;
+    padding: 8px;
+}
+
+#aboutThirdSection .row .col-md-6 .myContainer h5 {
+    color: #304059;
+}
+
+#aboutThirdSection .row .col-md-6 .myContainer hr {
+    background: #304059;
+    width: 17%;
+    border: solid 1px #304059;
+    margin-left: 1px;
+}
+
+#aboutThirdSection .row .col-md-6 .myContainer p {
+    color: black;
+    padding: 20px 2px;
+}
+
+#aboutFourthSection {
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 33px 64px;
+}
+
+#aboutFourthSection h3 {
+    padding: 42px 3px 20px 3px;
+    font-family: font1;
+    color: white;
+}
+
+#aboutFifthSection {
+    padding: 55px 160px;
+}
+
+#aboutFifthSection p {
+    font-size: 17px;
+}
+
+#aboutFifthSection .partOne {
+    background: #304059;
+    color: white;
+    padding: 60px 30px;
+}
+
+#aboutFifthSection h5 {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#aboutFifthSection .others p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#aboutFifthSection .others {
+    border: solid 1px grey;
+    padding: 13px;
+    color: #304059 !important;
+}
+
+#aboutFifthSection .others ul li {
+    text-align: center;
+    line-height: 29px;
+    font-size: 17px;
+}
+
+#aboutFifthSection .others ul li.bold {
+    font-weight: bolder;
+}
+
+#servicesFirstSection .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.servicesBannerWriteUp {
+    top: 183px;
+    color: white;
+    width: 75%;
+    left: 204px;
+    border-left: solid 1px #ffa500;
+    padding: 17px 0px 0px 28px;
+}
+
+.servicesBannerWriteUp h3 {
+    font-family: font3;
+}
+
+.servicesBannerWriteUp p {
+    padding: 1px 437px 19px 0px;
+    font-size: 18px;
+}
+
+#servicesSecondSection {
+    padding: 78px 10px;
+    background-image: url('../images/service 2nd section 1350x 532.jpg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#servicesSecondSection .row .col-md-8 div {
+    background: #304059;
+    color: white;
+    padding: 66px 52px;
+    line-height: 29px;
+}
+
+#hse {
+    background: url('../images/background archetype.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+    color: white;
+}
+
+#hse .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #1f3994;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+#hse .row {
+    padding: 170px 60px;
+}
+
+#hse .row p {
+    font-size: 20px;
+}
+
+#servicesSecondSection .row .col-md-8 div p {
+    margin-top: 25px;
+}
+
+#servicesSecondSection .row .col-md-8 div h5 {
+    font-family: font3;
+    line-height: 29px;
+}
+
+#servicesSecondSection img {
+    margin-top: -157px;
+}
+
+#servicesThirdSection {
+    padding: 78px 10px;
+    background-image: url('../images/3rd section.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+#servicesThirdSection .circle {
+    height: 55px;
+    width: 55px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.on {
+    display: none;
+}
+
+.on1 {
+    display: none !important;
+}
+
+#servicesThirdSection .col-md-6.writeUp div {
+    background: white;
+    padding: 61px 24px;
+    text-align: center;
+    margin-left: -29px;
+}
+
+#servicesThirdSection .push {
+    padding: 84px 0px;
+}
+
+#servicesThirdSection .push1 {
+    padding: 95px 0px;
+}
+
+#servicesThirdSection .push2 {
+    padding: 85px 0px;
+}
+
+#servicesThirdSection .push3 {
+    padding: 48px 0px;
+}
+
+#servicesThirdSection .push4 {
+    padding: 109px 0px;
+}
+
+#servicesThirdSection .col-md-6.writeUp div h5 {
+    font-weight: bolder;
+    font-family: font1;
+    margin-top: 20px;
+}
+
+#servicesThirdSection .row.divider {
+    margin-top: 30px
+}
+
+.contactBannerWriteUp {
+    top: 162px;
+    color: #333333;
+    width: 55%;
+    left: 204px;
+    margin-left: 373px;
+}
+
+.contactBannerWriteUp h1 {
+    font-family: font1;
+}
+
+.contactBannerWriteUp p {
+    font-size: 19px;
+    padding-right: 200px;
+}
+
+#contactSecondSection {
+    padding: 39px 117px;
+    color: white;
+}
+
+#contactSecondSection p {
+    font-size: 20px;
+}
+
+#contactSecondSection h2 {
+    font-family: font1;
+}
+
+#contactSecondSection .col-md-7 h2 {
+    color: black;
+}
+
+#contactSecondSection .col-md-7 hr {
+    width: 10%;
+    border: 1px grey solid;
+    margin-top: -2px;
+}
+
+#contactSecondSection>.row>.col-md-4 {
+    padding: 33px 47px;
+    background: #333333;
+}
+
+#contactSecondSection .row>.col-md-10 img {
+    margin-right: 15px;
+    margin-top: 17px;
+}
+
+#contactSecondSection .partOne {
+    margin-top: 48px;
+}
+
+#contactSecondSection .content {
+    margin-left: -15px;
+}
+
+#contactSecondSection .bottomMargin {
+    margin-bottom: 19px;
+}
+
+.myForm input {
+    width: 100%;
+    padding: 7px 12px;
+    background: #f5f5f5;
+}
+
+.myForm textarea {
+    width: 100%;
+    resize: none;
+    background: #f5f5f5;
+}
+
+.myForm input[type="submit"] {
+    width: 21%;
+    background: #333333;
+    color: white;
+}
+
+.row.myForm {
+    margin-top: 20px;
+}
+
+.csrBannerWriteUp {
+    top: 159px;
+    color: white;
+    width: 71%;
+    left: 204px;
+}
+
+.csrBannerWriteUp h1 {
+    font-family: font1;
+}
+
+.csrBannerWriteUp p {
+    font-size: 19px;
+    padding-right: 200px;
+}
+
+#csrSecondSection>.row {
+    background: #f5f9fc;
+}
+
+#csrSecondSection > .row {
+    padding: 127px 148px;
+}
+
+#csrSecondSection hr {
+    background: black;
+    width: 7%;
+    border: solid 1px black;
+    margin-left: 2px;
+    margin-top: -1px;
+}
+
+#csrSecondSection .partTwo>p {
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+#csrSecondSection .partTwo>h4 {
+    color: #b34e28;
+}
+
+#csrSecondSection .partOne img {
+    position: absolute;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+#csrFourthSection .profile h2 {
+    color: rgb(226, 202, 202);
+    position: absolute;
+    top: 43px;
+    text-align: center;
+    font-family: font1;
+    left: 76px;
+}
+
+#csrThirdSection h2 {
+    margin-top: -12px;
+}
+
+#csrThirdSection p {
+    font-size: 20px;
+    margin-top: 21px;
+}
+
+#csrThirdSection .row {
+    padding: 40px 62px;
+    z-index: 2;
+}
+
+#csrThirdSection {
+    background: #417516;
+    color: white;
+}
+
+#csrThirdSection hr {
+    width: 10%;
+    border: 1px white solid;
+    margin-top: -2px;
+}
+
+#csrFourthSection {
+    background-image: url('../images/1 bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+    padding: 33px 64px;
+}
+
+#csrFourthSection h2 {
+    margin-bottom: 46px;
+}
+.careerBannerWriteUp {
+    top: 221px;
+    color: white;
+    width: 37%;
+    left: 122px;
+}
+.careerBannerWriteUp h1 {
+    font-family: font1;
+}
+
+.careerBannerWriteUp p {
+    font-size: 19px;
+    padding-right: 200px;
+}
+
+#careerSecondSection {
+    background: #f4f7f8;
+}
+
+#careerSecondSection .partOne p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#careerSecondSection h3 {
+    text-align: center;
+}
+
+#careerSecondSection .container>.row {
+    padding: 81px 50px;
+}
+
+#careerSecondSection h3 {
+    color: #b34e28;
+}
+
+#careerSecondSection img {
+    margin-top: 24px;
+}
+
+#careerSecondSection .partTwo h1 {
+    font-family: font3;
+    color: #b34e28;
+}
+
+#careerSecondSection .partTwo p {
+    font-size: 19px;
+}
+
+#careerSecondSection .partTwo {
+    padding: 60px 1px;
+}
+
+@media(min-width:1400px) {
+    .on1 {
+        display: block !important;
+    }
+    .on {
+        display: none;
+    }
+    .off1 {
+        display: none !important;
+    }
+    .headerSocial {
+        right: 0px;
+        left: inherit;
+    }
+    .indexBanner {
+        top: 348px;
+        left: 344px;
+    }
+    .careerBannerWriteUp {
+        top: 243px !important;
+    }
+    .contactBannerWriteUp {
+        top: 243px !important;
+    }
+    #aboutSecondSection .partOne p {
+        top: 315px !important;
+        width: 95.1%;
+    }
+    #csrSecondSection .partOne img {
+        margin-top: -53px;
+    }
+}
+
+@media(max-width:768px) {
+    .off {
+        display: none;
+    }
+    #indexSecondSection {
+        padding: 50px 20px;
+    }
+    #indexSecondSection h3 {
+        font-size: 26px;
+    }
+    .indexPushUp {
+        margin-top: 0px;
+    }
+    .indexPushUp img {
+        margin: auto;
+        display: block;
+    }
+    #indexThirdSection .row {
+        padding: 50px 20px;
+    }
+    #indexThirdSection p {
+        font-size: 18px;
+    }
+    #indexFourthSection {
+        padding: 50px;
+    }
+    #indexFourthSection .push {
+        margin-top: 25px;
+    }
+    #indexFifthSection .row {
+        padding: 50px 20px;
+    }
+    #indexFifthSection p {
+        font-size: 18px;
+    }
+    #indexClients>div {
+        padding: 50px 20px;
+    }
+    #indexClients img {
+        margin: auto;
+        display: block;
+    }
+    #indexSixthSection .row {
+        padding: 50px 22px;
+    }
+    #indexSixthSection p {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #indexSixthSection h2 {
+        margin-top: 12px;
+        font-size: 26px;
+    }
+    #indexSixthSection img {
+        margin: auto;
+        display: block;
+    }
+    #footer .firstRow {
+        padding: 50px 20px;
+    }
+    #footer .partOne .button {
+        margin: auto;
+    }
+    #footer h4 {
+        margin-top: 30px;
+    }
+    #footer .partTwo li {
+        line-height: 28px;
+    }
+    #aboutSecondSection>.row {
+        padding: 50px 20px;
+    }
+    #aboutSecondSection img {
+        margin: auto;
+        display: block;
+    }
+    #aboutSecondSection h3 {
+        font-size: 26px;
+    }
+    #aboutSecondSection .partTwo>p {
+        font-size: 18px;
+    }
+    #aboutThirdSection>.row {
+        padding: 50px 30px;
+    }
+    #aboutThirdSection .partOne {
+        padding: 10px 2px;
+    }
+    #aboutThirdSection .partOne p {
+        font-size: 18px;
+    }
+    #about3section h2 {
+        margin: auto;
+    }
+    .on {
+        display: block;
+    }
+    #about3section>.row {
+        padding: 14px 20px;
+    }
+    #about3section .row>.col-md-4 p {
+        font-size: 18px;
+    }
+    #about3section li {
+        font-size: 17px;
+        margin-bottom: 24px;
+        line-height: 25px;
+    }
+    #indexFirstSection>div {
+        top: 145px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 80%;
+        position: absolute;
+        color: white !important
+    }
+    #aboutFifthSection {
+        padding: 55px 20px;
+    }
+    #indexFirstSection>div h1 {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 27px;
+    }
+    #indexFirstSection>div p {
+        font-size: 19px;
+    }
+    #razoNav img {
+        width: 80% !important;
+    }
+    #about3section li img {
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    #about3section li p {
+        text-align: center;
+    }
+    #aboutFirstSection>div {
+        top: 145px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        position: absolute;
+        color: white !important
+    }
+    #aboutFirstSection>div h1 {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 27px;
+    }
+    #servicesSecondSection {
+        padding: 50px 10px;
+    }
+    #servicesSecondSection .row .col-md-8 div {
+        padding: 40px 20px;
+    }
+    #servicesSecondSection img {
+        margin-top: 17px;
+    }
+    #hse .row {
+        padding: 50px 20px;
+    }
+    #hse .row p {
+        font-size: 17px;
+    }
+    #servicesThirdSection img {
+        margin: auto;
+        display: block;
+    }
+    #servicesThirdSection .col-md-6.writeUp div {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    #servicesFirstSection>div {
+        top: 145px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        position: absolute;
+        color: white !important
+    }
+    #servicesFirstSection>div h3 {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 27px;
+    }
+    #careerFirstSection>div {
+        top: 145px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        position: absolute;
+        color: white !important
+    }
+    #careerFirstSection>div h1 {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 27px;
+    }
+    #careerSecondSection .partOne .row .col-md-12 {
+        margin-bottom: 20px;
+    }
+    #careerSecondSection .container>.row {
+        padding: 50px 22px;
+    }
+    #csrFirstSection>div {
+        top: 145px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        position: absolute;
+        color: white !important
+    }
+    #csrFirstSection>div h1 {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 27px;
+    }
+    #csrSecondSection>.row {
+        padding: 50px 20px;
+    }
+    #csrSecondSection .partOne img {
+        position: static;
+    }
+    #csrThirdSection .row {
+        padding: 50px 20px;
+    }
+    #contactFirstSection>div {
+        top: 145px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 0;
+        width: 85%;
+        position: absolute;
+        color: black !important
+    }
+    #contactFirstSection>div h1 {
+        font-size: 28px;
+        letter-spacing: 0px;
+        line-height: 27px;
+    }
+    #contactSecondSection {
+        padding: 50px 20px;
+    }
+    #contactSecondSection>.row>.col-md-4 {
+        padding: 40px;
+    }
+    #contactSecondSection .content {
+        margin-left: 0px;
+    }
+    #contactSecondSection .col-md-7 {
+        margin-top: 50px;
+    }
+    .mr {
+        margin-top: 21px;
+    }
+    .myForm input[type="submit"] {
+        width: 62%;
+    }
+}
